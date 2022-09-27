@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.app{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:26px 40px;
+}
+span .brand{
+    letter-spacing: 30px;
+}
+.app_queryForm{
+    margin-top: 16px;
+}
+.app_Ingredient{
+    min-width:200px;
+    padding:5px 10px;
+    font-size: 16px;
+    font:'poppins',sans-serif;
+}
+.app_Submit{
+    padding:08px 10px;
+    background-color: #3498db;
+    border:none;
+    color:#fff;
+    margin-left:10px;
+    transition:0.1s ease-in;
+    cursor:pointer;
+}
+.app_Submit:hover{
+    padding:08px 10px;
+    background-color: #fff;
+    border:2px solid #3498db;
+    color:#3498db;
+   
+}
+.app_healthLabel{
+    padding:8px 10px;
+    color:#3498db;
+    margin-left:10px;
+}
+.recipeTile{
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    align-items: baseline;
+}
+span{
+    color: #3498db;
+    font-size: 60px;
+}
